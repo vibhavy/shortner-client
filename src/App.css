@@ -1,0 +1,59 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  background-color: #3b59ce;
+  position: relative;
+}
+
+.full {
+  height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#create-form {
+  background-color: #ffffff;
+  padding: 20px;
+  top: 30%;
+}
+
+.url-label {
+  font-size: 2rem;
+}
+
+.url-field {
+  padding: 12px 15px;
+  font-size: 16px;
+  margin: 15px 0px;
+  width: 419px;
+}
+
+.url-btn {
+  padding: 5px 10px;
+}
+
+.output {
+  display: block;
+  color: #ffffff;
+  padding: 3px 10px 5px;
+  margin: 20px 0px 0px 0px;
+}
+
+.error {
+  background-color: #d84366;
+}
+
+.success {
+  background-color: #33cea0;
+}
